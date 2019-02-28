@@ -205,4 +205,6 @@ TG_DB_TAILORING = {
 
 TGT_PLUGIN_CATEGORIES = {
     { db = TG_DB_TAILORING, name = TG_CAT_TAILORING, smenu = TG_PREFIX_SHOW..TG_CAT_TAILORING, profession = "Tailoring", skill = 1 }
-TGC_MINABLES = {}
+}
+
+TGT_MINABLES = {}

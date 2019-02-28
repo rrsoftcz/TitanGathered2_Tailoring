@@ -3,7 +3,7 @@ tgtPluginDb = {}
 
 TitanGathered2_Tailoring = {}
 -- Reduce the chance of functions and variables colliding with another addon.
-local tgc = TitanGathered2_Tailoring
+local tgt = TitanGathered2_Tailoring
 local infoBoardData = {}
 local tg = TitanGathered2
 
@@ -17,7 +17,7 @@ tgt.version = tostring(GetAddOnMetadata(tgt.addon, "Version")) or "Unknown"
 tgt.author = tostring(GetAddOnMetadata(tgt.addon, "Author")) or "Unknown"
 
 
-for _, _category in pairs(TGt_PLUGIN_CATEGORIES) do
+for _, _category in pairs(TGT_PLUGIN_CATEGORIES) do
     table.insert(TG_CATEGORIES, _category)
 end
 
